@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(25, 42, 50, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+p {
+    text-align: center;
+    color: hsl(30, 85%, 79%);
+    font-size: 52px;
+}
+
+.one {
+    color: #f0b337;
+}
+
+.two {
+    color: #33c2be;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 75px 75px 75px;
+    gap: 15px;
+}
+
+.box {
+    background-color: #1f3540;
+    box-shadow: 0px 5px 1px #0f2028;
+    height: 75px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+.appearBox {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1e3641;
+    padding: 20px;
+    text-align: center;
+    border-radius: 14px;
+    width: 100%;
+}
+
+.appearBox>button {
+    background-color: #f3b137;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 7px;
+    border: none;
+    font-weight: bold;
+}
+
+.appearBox>button:hover {
+    cursor: pointer;
+    opacity: 0.85;
+}
+
+h2 {
+    color: rgb(212, 212, 122);
+}
+
+h1 {
+    color: #a4bac5;
+}
+
+.span {
+    color: #f0b337;
+    font-Weight: bolder;
+}
+
+.flex2 {
+    background-color: #1f3540;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #a4bac5;
+}
+
+.flex3 {
+    background-color: #a8bec9;
+    padding: 5px 15px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.flex2,
+.flex3 {
+    border-radius: 9px;
+}
+
+.flex1 {
+    font-size: 30px;
+    color: #33c2be;
+    font-weight: bolder;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.flex3:hover {
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.owin {
+    color: #f0b337;
+    font-size: 35px;
+}
+
+.xwin {
+    color: #33c2be;
+    font-size: 35px;
+}

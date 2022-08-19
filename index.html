@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+    <script defer src="app.js"></script>
+</head>
+
+<body>
+    <main id="main">
+        <p> <span class="one">Tic</span> <span class="two">Tac</span> Toe</p>
+        <div class="flex">
+            <div class="flex1">x <span class="span">o</span></div>
+            <div class="flex2" id="flex2"></div>
+            <div class="flex3" onclick="restart()">Re</div>
+        </div>
+        <div class="grid">
+            <button class="box gridItem1" id="item0"></button>
+            <button class="box gridItem2" id="item1"></button>
+            <button class="box gridItem3" id="item2"></button>
+            <button class="box gridItem4" id="item3"></button>
+            <button class="box gridItem5" id="item4"></button>
+            <button class="box gridItem6" id="item5"></button>
+            <button class="box gridItem7" id="item6"></button>
+            <button class="box gridItem8" id="item7"></button>
+            <button class="box gridItem9" id="item8"></button>
+        </div>
+        <div class="appearBox" id="player1">
+            <h1>Match winner</h1>
+            <h2 class="owin">O takes the round</h2>
+            <button onclick="restart()">Next Round</button>
+        </div>
+        <div class="appearBox" id="player2">
+            <h1>Match winner</h1>
+            <h2 class="xwin">X takes the round</h2>
+            <button onclick="restart()">Next Round</button>
+        </div>
+        <div class="appearBox" id="restart">
+            <h1>Match Drawn</h1>
+            <button onclick="restart()">Next Round</button>
+        </div>
+    </main>
+</body>
+
+</html>
